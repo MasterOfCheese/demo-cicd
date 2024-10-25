@@ -19,3 +19,7 @@ it('Span tag should be in the document', () => {
   render(<Page params={{ slug: 'Test1' }} />)
   expect(screen.getByText('ThisIsTestSpan')).toBeInTheDocument()
 })
+it('Strong tag should be in the document', () => {
+  render(<Page params={{ slug: 'Test2' }} />)
+  expect(screen.getByText('BayGioLa2:22 AM')).toBeInTheDocument()
+})
