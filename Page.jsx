@@ -11,5 +11,6 @@ export default function Page() {
     <h1>App Router</h1><p>NamPhuong</p>
     <span>ThisIsTestSpan</span>
     <p>Welcome to NamPhuongs Zone</p>
+    <h2>Dont use CICD because you are not NamPhuong</h2>
   </>
 }
