@@ -9,7 +9,7 @@ export const metadata = {
 export default function Page() {
   return <>
     <h1>App Router</h1>
-    <p>Nam Phuong</p>
+    <p>NamPhuong</p>
     <span>ThisIsTestSpan</span>
     <p>Welcome to NamPhuongs Zone</p>
     <h2>Dont use CICD because you are not NamPhuong</h2>
