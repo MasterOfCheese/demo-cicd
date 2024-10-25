@@ -15,3 +15,7 @@ it('NamPhuong should be in the document', () => {
   render(<Page params={{ slug: 'Test' }} />)
   expect(screen.getByText('NamPhuong')).toBeInTheDocument()
 })
+it('Span tag should be in the document', () => {
+  render(<Page params={{ slug: 'Test1' }} />)
+  expect(screen.getByText('ThisIsTestSpan')).toBeInTheDocument()
+})
