@@ -16,5 +16,6 @@ export default function Page() {
     <strong>BayGioLa2:22 AM</strong>
     <p>demoTestSamGroup</p>
     <p>thisIsTestPlace</p>
+    <p>DoDat</p>
   </>
 }
