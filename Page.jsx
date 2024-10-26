@@ -14,5 +14,6 @@ export default function Page() {
     <p>Welcome to NamPhuongs Zone</p>
     <h2>Dont use CICD because you are not NamPhuong</h2>
     <strong>BayGioLa2:22 AM</strong>
+    <p>demoTestSamGroup</p>
   </>
 }
