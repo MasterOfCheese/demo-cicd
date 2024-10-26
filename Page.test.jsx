@@ -31,3 +31,7 @@ it('test tag should be in the document', () => {
   render(<Page params={{ slug: 'Test4' }} />)
   expect(screen.getByText('thisIsTestPlace')).toBeInTheDocument()
 })
+it('test tag should be in the document', () => {
+  render(<Page params={{ slug: 'Test5' }} />)
+  expect(screen.getByText('DoDat')).toBeInTheDocument()
+})
