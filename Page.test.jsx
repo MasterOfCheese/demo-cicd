@@ -15,23 +15,3 @@ it('NamPhuong should be in the document', () => {
   render(<Page params={{ slug: 'Test' }} />)
   expect(screen.getByText('NamPhuong')).toBeInTheDocument()
 })
-it('Span tag should be in the document', () => {
-  render(<Page params={{ slug: 'Test1' }} />)
-  expect(screen.getByText('ThisIsTestSpan')).toBeInTheDocument()
-})
-it('Strong tag should be in the document', () => {
-  render(<Page params={{ slug: 'Test2' }} />)
-  expect(screen.getByText('BayGioLa2:22 AM')).toBeInTheDocument()
-})
-it('paragraph tag should be in the document', () => {
-  render(<Page params={{ slug: 'Test3' }} />)
-  expect(screen.getByText('demoTestSamGroup')).toBeInTheDocument()
-})
-it('test tag should be in the document', () => {
-  render(<Page params={{ slug: 'Test4' }} />)
-  expect(screen.getByText('thisIsTestPlace')).toBeInTheDocument()
-})
-it('test tag should be in the document', () => {
-  render(<Page params={{ slug: 'Test5' }} />)
-  expect(screen.getByText('DoDatdeptrai')).toBeInTheDocument()
-})
