@@ -11,6 +11,6 @@ export default function Page() {
     <h1>App Router</h1>
     <p>NamPhuong</p>
     <p>DoDat2</p>
-    <p>NamPhuongDemo</p>
+    <p>NamPhuongDemo2</p>
   </>
 }
