@@ -19,3 +19,7 @@ it('NamPhuong should be in the document', () => {
   render(<Page params={{ slug: 'Test1' }} />)
   expect(screen.getByText('DoDat2')).toBeInTheDocument()
 })
+it('NamPhuong should be in the document', () => {
+  render(<Page params={{ slug: 'Test1' }} />)
+  expect(screen.getByText('NamPhuongDemo')).toBeInTheDocument()
+})
