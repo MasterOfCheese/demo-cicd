@@ -35,16 +35,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.16.0'  # Đặt phiên bản Node.js cần thiết cho dự án của bạn
+          node-version: '18.16.0'
       
       - name: Verify Node.js Version
-        run: node -v  # Kiểm tra phiên bản Node.js đang chạy
+        run: node -v
       
       - name: Install Dependencies
-        run: yarn install  # Cài đặt các phụ thuộc của dự án
+        run: yarn install
       
       - name: Build
-        run: yarn build  # Chạy lệnh xây dựng để tạo ra các tệp tĩnh
+        run: yarn build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -52,7 +52,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'  # Thay đổi đường dẫn nếu thư mục đầu ra của bạn khác nhau (ví dụ: 'build' cho Create React App)
+          path: 'dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
